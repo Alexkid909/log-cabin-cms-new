@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_common_q_and_as",
+  "info": {
+    "displayName": "Question and Answer Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "questionAndAnswer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::q-and-a.q-and-a"
+    }
+  }
+}

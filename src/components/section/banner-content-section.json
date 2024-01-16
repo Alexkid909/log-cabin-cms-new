@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_banner_content_sections",
+  "info": {
+    "displayName": "Banner Content Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    }
+  }
+}

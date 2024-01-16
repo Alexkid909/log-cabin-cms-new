@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_seo_page_metas",
+  "info": {
+    "displayName": "meta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tagId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "additionalProperties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.key-value-pair"
+    },
+    "ref": {
+      "type": "string",
+      "private": true
+    }
+  }
+}

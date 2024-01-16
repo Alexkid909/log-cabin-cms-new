@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_common_button_themes",
+  "info": {
+    "displayName": "Button Theme",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "themeName": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "primary"
+    }
+  }
+}

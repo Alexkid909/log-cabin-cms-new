@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_section_gallery_carousel_sections",
+  "info": {
+    "displayName": "Gallery Carousel Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.component-header"
+    },
+    "filterBy": {
+      "type": "enumeration",
+      "enum": [
+        "tag",
+        "meta-property"
+      ],
+      "required": true
+    },
+    "filterValue": {
+      "type": "string",
+      "required": true
+    },
+    "showWatermarks": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

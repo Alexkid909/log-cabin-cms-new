@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_common_text_components",
+  "info": {
+    "displayName": "Text Component"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "cssClasses": {
+      "type": "string"
+    }
+  }
+}

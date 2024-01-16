@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banners",
+  "info": {
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "common.text-component",
+        "common.button-function",
+        "common.button-link",
+        "common.cloudinary-image"
+      ],
+      "required": true
+    },
+    "backgroundImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.image-tile",
+      "required": true
+    },
+    "viewportPercentageLandscape": {
+      "type": "decimal",
+      "required": true,
+      "default": 100,
+      "max": 100,
+      "min": 1
+    },
+    "viewportPercentagePortrait": {
+      "type": "decimal",
+      "required": true,
+      "default": 50,
+      "max": 100,
+      "min": 1
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_common_section_themes",
+  "info": {
+    "displayName": "Section Theme",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "themeName": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    }
+  }
+}

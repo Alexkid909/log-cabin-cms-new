@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_common_feature_components",
+  "info": {
+    "displayName": "Feature Component"
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::feature.feature"
+    }
+  }
+}

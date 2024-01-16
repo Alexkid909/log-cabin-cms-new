@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_common_component_header",
+  "info": {
+    "displayName": "Component Header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

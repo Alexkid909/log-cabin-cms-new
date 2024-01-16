@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_image_cloudinary_image_transformations",
+  "info": {
+    "displayName": "Cloudinary Image Transformation"
+  },
+  "options": {},
+  "attributes": {
+    "crop": {
+      "type": "string"
+    },
+    "width": {
+      "type": "float"
+    },
+    "height": {
+      "type": "float"
+    },
+    "offsetY": {
+      "type": "float"
+    },
+    "offsetX": {
+      "type": "float"
+    },
+    "gravity": {
+      "type": "string"
+    },
+    "overlay": {
+      "type": "string"
+    },
+    "opacity": {
+      "type": "biginteger"
+    },
+    "flags": {
+      "type": "string"
+    },
+    "aspectRatio": {
+      "type": "decimal"
+    }
+  }
+}

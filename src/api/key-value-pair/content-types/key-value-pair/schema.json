@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "key_value_pairs",
+  "info": {
+    "singularName": "key-value-pair",
+    "pluralName": "key-value-pairs",
+    "displayName": "Key Value Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

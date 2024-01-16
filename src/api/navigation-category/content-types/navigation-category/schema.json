@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigation_categories",
+  "info": {
+    "singularName": "navigation-category",
+    "pluralName": "navigation-categories",
+    "displayName": "Navigation Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categoryName": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page",
+      "mappedBy": "navigation_category"
+    },
+    "navPages": {
+      "type": "dynamiczone",
+      "components": [
+        "common.nav-page"
+      ]
+    }
+  }
+}

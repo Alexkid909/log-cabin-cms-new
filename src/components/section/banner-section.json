@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_banner_sections",
+  "info": {
+    "displayName": "Banner Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "cloudinaryId": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.component-header"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

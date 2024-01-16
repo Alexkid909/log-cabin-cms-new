@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_metas",
+  "info": {
+    "singularName": "site-meta",
+    "pluralName": "site-metas",
+    "displayName": "Site Meta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.meta"
+    }
+  }
+}

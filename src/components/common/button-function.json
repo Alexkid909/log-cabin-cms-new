@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_common_button_functions",
+  "info": {
+    "displayName": "Button (Function)",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "functionName": {
+      "type": "enumeration",
+      "enum": [
+        "toggle-calendar-active"
+      ],
+      "required": true
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button-theme",
+      "required": false
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25,
+      "minLength": 1
+    }
+  }
+}

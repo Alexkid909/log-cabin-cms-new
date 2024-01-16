@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "required": true,
+      "targetField": "name"
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "section.text-and-image-section",
+        "section.text-section",
+        "section.banner-section",
+        "section.reviews-section",
+        "section.questions-and-answers-section",
+        "section.gallery-carousel-section",
+        "section.gallery-grid-section",
+        "section.features-section",
+        "section.map-section"
+      ],
+      "required": true
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.meta"
+    },
+    "header": {
+      "type": "dynamiczone",
+      "components": [
+        "section.banner-content-section",
+        "section.banner-section"
+      ],
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "navigation_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::navigation-category.navigation-category",
+      "inversedBy": "pages"
+    }
+  }
+}

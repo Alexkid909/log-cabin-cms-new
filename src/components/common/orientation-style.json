@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_common_orientation_styles",
+  "info": {
+    "displayName": "Orientation Style"
+  },
+  "options": {},
+  "attributes": {
+    "style": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.key-value-pair",
+      "required": true
+    },
+    "orientation": {
+      "type": "enumeration",
+      "enum": [
+        "landscape",
+        "portrait"
+      ],
+      "default": "landscape"
+    }
+  }
+}

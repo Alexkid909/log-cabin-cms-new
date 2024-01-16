@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_common_button_links",
+  "info": {
+    "displayName": "Button (Link)",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button-theme"
+    }
+  }
+}

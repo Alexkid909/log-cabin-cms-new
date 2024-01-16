@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_common_image_tiles",
+  "info": {
+    "displayName": "Cloudinary Image Tile",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cloudinaryId": {
+      "type": "string",
+      "required": true
+    },
+    "showImageWatermark": {
+      "type": "boolean",
+      "default": false
+    },
+    "overlayEffect": {
+      "type": "enumeration",
+      "enum": ["overlay-gradient-center-y"]
+    },
+    "transformations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.cloudinary-image-transformation"
+    },
+    "landscapeStyles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.key-value-pair"
+    },
+    "portraitStyles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.key-value-pair"
+    }
+  }
+}

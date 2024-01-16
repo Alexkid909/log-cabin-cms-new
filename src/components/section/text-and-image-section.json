@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_section_type_part_text_and_images",
+  "info": {
+    "displayName": "Text and Image Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "required": false,
+      "default": "left"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.component-header"
+    },
+    "bodyText": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 1
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.image-tile",
+      "required": true
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.section-theme"
+    }
+  }
+}

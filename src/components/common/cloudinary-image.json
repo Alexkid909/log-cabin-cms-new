@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_common_cloudinary_images",
+  "info": {
+    "displayName": "Cloudinary Image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cloudinaryId": {
+      "type": "string",
+      "required": true
+    },
+    "width": {
+      "type": "biginteger",
+      "required": true
+    },
+    "cssClasses": {
+      "type": "string"
+    },
+    "transformations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.cloudinary-image-transformation"
+    }
+  }
+}

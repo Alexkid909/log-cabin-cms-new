@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_icons",
+  "info": {
+    "singularName": "content-icon",
+    "pluralName": "content-icons",
+    "displayName": "Content Icon",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "isFontAwesome": {
+      "type": "boolean"
+    },
+    "key": {
+      "type": "string"
+    }
+  }
+}

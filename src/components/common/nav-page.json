@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_common_nav_pages",
+  "info": {
+    "displayName": "Nav Page",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_text_sections",
+  "info": {
+    "displayName": "Text Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.component-header"
+    },
+    "bodyText": {
+      "type": "richtext"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.section-theme"
+    }
+  }
+}
