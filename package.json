@@ -21,6 +21,9 @@
     "sqlite3": "^5.1.7",
     "strapi-plugin-import-export-entries": "^1.23.1",
     "strapi-plugin-populate-deep": "^3.0.1",
+    "strapi-plugin-redis": "^1.0.1",
+    "strapi-plugin-rest-cache": "^4.2.8",
+    "strapi-provider-rest-cache-redis": "^4.2.8",
     "styled-components": "^5.3.11"
   },
   "author": {
